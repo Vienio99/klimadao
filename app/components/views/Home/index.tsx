@@ -30,14 +30,15 @@ import { NotificationModal } from "components/NotificationModal";
 
 import { initLocale } from "lib/i18n";
 
-import * as styles from "./styles";
-import { setAppState } from "state/app";
+import * as styles              from "./styles";
+import { setAppState }          from "state/app";
 import { ChangeLanguageButton } from "components/ChangeLanguageButton";
-import { ConnectButton } from "../../ConnectButton";
-import { NavMenu } from "components/NavMenu";
-import Menu from "@mui/icons-material/Menu";
-import { IsomorphicRoutes } from "components/IsomorphicRoutes";
-import { Buy } from "../Buy";
+import { ConnectButton }        from "../../ConnectButton";
+import { NavMenu }              from "components/NavMenu";
+import Menu                     from "@mui/icons-material/Menu";
+import { IsomorphicRoutes }     from "components/IsomorphicRoutes";
+import { Buy }                  from "../Buy";
+import { BuyModal }             from '../../BuyModal'
 
 // Taken from https://mui.com/material-ui/material-icons/?query=email&selected=MailOutline
 const emailIconDataUri =
@@ -422,6 +423,7 @@ export const Home: FC = () => {
 
       <InvalidNetworkModal provider={provider} />
       <NotificationModal />
+      <BuyModal address={address} />
 
       {showRPCModal && (
         <InvalidRPCModal onHide={() => setShowRPCModal(false)} />
