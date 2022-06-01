@@ -6,6 +6,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ko\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
 #: components/CheckURLBanner/index.tsx:39
 msgid "On April 12, 2022 we migrated from \"dapp\" to \"app\". Please update your bookmarks."
@@ -167,26 +173,34 @@ msgstr ""
 msgid "bond.you_will_get.tooltip"
 msgstr ""
 
-#: components/views/Buy/index.tsx:44
+#: components/views/Buy/index.tsx:37
 msgid "buy.buy_klima"
 msgstr ""
 
 #. Long sentence
-#: components/views/Buy/index.tsx:108
+#: components/views/Buy/index.tsx:68
 msgid "buy.connect_wallet"
 msgstr ""
 
 #. Long sentence
-#: components/views/Buy/index.tsx:55
+#: components/views/Buy/index.tsx:48
 msgid "buy.data_disclaimer"
 msgstr ""
 
 #. Long sentence
-#: components/views/Buy/index.tsx:47
+#: components/views/Buy/index.tsx:40
 msgid "buy.how_to_buy"
 msgstr ""
 
-#: components/views/Buy/index.tsx:105
+#: components/BuyModal/index.tsx:106
+msgid "buy.modal.connected"
+msgstr ""
+
+#: components/BuyModal/index.tsx:98
+msgid "buy.modal.headline"
+msgstr ""
+
+#: components/views/Buy/index.tsx:65
 msgid "buy.not_connected"
 msgstr ""
 
@@ -578,16 +592,12 @@ msgid "shared.confirming"
 msgstr ""
 
 #: components/views/Bond/index.tsx:311
-#: components/views/Buy/index.tsx:113
+#: components/views/Buy/index.tsx:73
 #: components/views/Offset/index.tsx:287
 #: components/views/PKlima/index.tsx:125
 #: components/views/Stake/index.tsx:143
 #: components/views/Wrap/index.tsx:129
 msgid "shared.connect_wallet"
-msgstr ""
-
-#: components/views/Buy/index.tsx:76
-msgid "shared.copy_wallet_address"
 msgstr ""
 
 #: components/views/Stake/index.tsx:179
@@ -641,10 +651,6 @@ msgstr ""
 msgid "shared.sold_out"
 msgstr ""
 
-#: components/views/Buy/index.tsx:83
-msgid "shared.wallet_address_copied"
-msgstr ""
-
 #: components/views/Stake/index.tsx:300
 msgid "stake.5_day_rewards"
 msgstr ""
@@ -665,7 +671,7 @@ msgstr ""
 
 #. Long sentence
 #. Long sentence
-#: components/views/Buy/index.tsx:124
+#: components/views/Buy/index.tsx:151
 #: components/views/Stake/index.tsx:215
 msgid "stake.balancescard.tooltip"
 msgstr ""
